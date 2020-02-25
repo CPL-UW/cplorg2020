@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <main id="main">
+    <h1>{{ .Title }}</h1>
+    <ul class="patterns-list">
+    {{ range .Pages.ByPublishDate.Reverse }}
+      <li class="paper-pattern">
+        <!-- <h2> -->
+          <!-- <a href="{{ .Permalink }}"> -->
+            {{ if isset .Params "link" }}
+                <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+                  <use xlink:href="#bookmark"></use>
+                </svg>
+                <a href="{{ .Params.link }}"> {{ .Params.author }} ({{.Date.Year}}). {{ .Title }}.</a>
+            {{else}}
+                {{ .Params.author }} ({{.Date.Year}}). {{.Title}}.
+            {{end}}
+            {{if isset .Params "journal"}} <i>{{.Params.journal}} {{end}}</i>
+            <br />
+          <!-- </a> -->
+        <!-- </h2> -->
+      </li>        
+    {{ end }}
+    </ul>
+  </main>
+{{ end }}

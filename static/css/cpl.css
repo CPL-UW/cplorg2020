@@ -1,0 +1,28 @@
+.headshot {
+    border-radius: 15px 50px 30px;
+    width: 150px;
+}
+.person-list {
+  display: flex;                       /* establish flex container */
+  flex-wrap: wrap;                     /* enable flex items to wrap */
+  justify-content: center; /*space-around;*/
+}
+.person-cell {
+    text-align: center;
+}
+
+div.person-cell {
+/*            border: 2px solid #000000;*/
+  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+  height: 250px;
+  margin: 0 0 0 0px;        
+}
+p.person-cell { 
+    font:16px arial;
+    margin: 0;
+    padding: 0;
+}
+
+li.paper-pattern {
+    font-size: 11pt;
+}
