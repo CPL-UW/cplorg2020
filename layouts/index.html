@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main id="main">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <div class="project-list">
+        {{ with .Site.GetPage "section" "project" }}
+        {{ range .Pages.ByDate }}
+        <div class="project-cell">
+            <img class="projectshot" src="{{ .Params.projectshot }}">
+            <p class="project-cell">{{.Title}}</p>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+</main>
+{{ end }}
