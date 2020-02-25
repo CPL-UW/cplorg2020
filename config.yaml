@@ -17,8 +17,8 @@ imaging:
   quality: 99
 
 params:
-  description: Complex Play Lab
-  homeMetaContent: Complex Play Lab
+    #  description: Complex Play Lab
+    #homeMetaContent: Complex Play Lab
   footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme).
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
