@@ -4,6 +4,7 @@ description = ""
 role = "alum"
 draft = true
 tags = []
-title = "catherine dornfeld"
+title = "catherine dornfeld tissenbaum"
+headshot = "img/c_tissenbaum.jpg"
 topics = []
 +++

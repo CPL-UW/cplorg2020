@@ -1,7 +1,9 @@
 .headshot {
     border-radius: 15px 50px 30px;
     width: 150px;
-}
+/*    height: 250px;
+    overflow: hidden;
+*/}
 .person-list {
   display: flex;                       /* establish flex container */
   flex-wrap: wrap;                     /* enable flex items to wrap */
