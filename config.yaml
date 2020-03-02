@@ -3,7 +3,7 @@ languageCode: en-us
 defaultContentLanguage: en
 title: Complex Play Lab
 theme: cupper
-googleAnalytics: UA-123456789-1
+googleAnalytics: UA-29814504-2
 #disqusShortname: yourdiscussshortname
 #enableGitInfo: true
 
@@ -39,9 +39,9 @@ menu:
     - name: Apply
       url: /apply/
       weight: 4
-    - name: Contact
-      url: /contact/
-      weight: 5
+    # - name: Contact
+    #   url: /contact/
+    #   weight: 5
 
 markup:
   defaultMarkdownHandler: goldmark

@@ -1,12 +1,14 @@
 {{ define "main" }}
   <main id="main">
     {{ range (.Pages.GroupByParam "role").Reverse }}
-    <h1>{{ .Key }}</h1>
+    <h2 class="person-heading">{{ .Key }}</h2>
     <div class="person-list">
     {{ range .Pages }}
           <div class="person-cell">
+            {{ if isset .Params "url_person" }} <a class="person-url" href="{{.Params.url_person}}"> {{ end }}
             <img class="headshot" src="/{{ .Params.headshot }}" >
             <p class="person-cell">{{.Title}}</p>
+            {{ if isset .Params "url_person" }} </a> {{ end }}
           </div>
     {{ end }}
     </div>
