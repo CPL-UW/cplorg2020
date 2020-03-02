@@ -2,7 +2,7 @@
 date = "2016-06-24T13:50:28-05:00"
 description = ""
 role = "doc student"
-url_person = "https://peterjwoods.bandcamp.com/"
+url_person = "http://peterjwoods.com/"
 draft = true
 tags = []
 title = "peter j. woods"
