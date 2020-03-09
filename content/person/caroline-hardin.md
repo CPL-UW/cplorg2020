@@ -6,5 +6,5 @@ draft = true
 tags = []
 title = "caroline hardin"
 topics = []
-headshot = "img/c_hardin.png"
+headshot = "img/c_hardin.jpg"
 +++
