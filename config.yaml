@@ -39,9 +39,9 @@ menu:
     - name: Apply
       url: /apply/
       weight: 4
-    # - name: Contact
-    #   url: /contact/
-    #   weight: 5
+    - name: About
+      url: /about/about/
+      weight: 5
 
 markup:
   defaultMarkdownHandler: goldmark
