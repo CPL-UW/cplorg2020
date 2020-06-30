@@ -6,7 +6,7 @@
         {{ with .Site.GetPage "section" "project" }}
         {{ range .Pages.ByDate.Reverse }}
         <div class="project-cell">
-            {{ if isset .Params "url_project" }} <a class="project-url" href="{{.Params.url_project}}"> {{ end }}
+            {{ if isset .Params "url_project" }} <a class="project-url" href="{{.Params.url_project}}" target="_blank"> {{ end }}
             <img class="projectshot" src="{{ .Params.projectshot }}" alt="{{.Title}}">
             {{ if isset .Params "url_project" }} </a> {{ end }}            
             <!-- <div class="project-cell-text">{{.Title}}</div> -->
