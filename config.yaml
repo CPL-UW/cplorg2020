@@ -40,8 +40,11 @@ menu:
       url: /apply/
       weight: 4
     - name: About
-      url: /about/about/
+      url: /about/
       weight: 5
+    - name: Projects
+      url: /projects/
+      weight: 6
 
 markup:
   defaultMarkdownHandler: goldmark

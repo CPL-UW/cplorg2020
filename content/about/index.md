@@ -3,7 +3,7 @@ date = "2020-06-01T12:00:00-05:00"
 description = ""
 draft = true
 tags = []
-title = "About Us"
+title = "About"
 topics = []
 +++
 
