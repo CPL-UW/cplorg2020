@@ -5,6 +5,7 @@ draft = true
 tags = []
 title = "beats empire"
 url_project = "https://info.beatsempire.org/"
+external_link = true
 topics = []
 projectshot = "/img/p_beatsempire.png"
 +++
