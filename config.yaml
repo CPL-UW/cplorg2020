@@ -42,9 +42,6 @@ menu:
     - name: About
       url: /about/
       weight: 5
-    - name: Projects
-      url: /projects/
-      weight: 6
 
 markup:
   defaultMarkdownHandler: goldmark
