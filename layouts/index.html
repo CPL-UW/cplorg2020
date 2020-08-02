@@ -8,9 +8,9 @@
         <div class="project-cell">
             {{ if (isset .Params "external_link") }} <a class="project-url" href="{{.Params.url_project}}" target="_blank"> 
             {{ else if (isset .Params "url_project") }} <a class="project-url" href="{{.Params.url_project}}" > {{ end }}
-            <img class="projectshot" src="{{ .Params.projectshot }}" alt="{{.Title}}">
+            <img class="projectshot" src="{{ .Params.projectshot }}" alt="{{.Title}}" title="{{.Title}}">
             {{ if isset .Params "url_project" }} </a> {{ end }}            
-            <!-- <div class="project-cell-text">{{.Title}}</div> -->
+            <div class="project-cell-text">{{.Title}}</div>
         </div>
         {{ end }}
         {{ end }}

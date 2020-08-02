@@ -4,7 +4,8 @@ description = ""
 draft = true
 tags = []
 title = "oztoc"
+url_project = "https://learninggamesnetwork.org/microsites/oztoc/"
+external_link = true
 topics = []
-link = "http://www.gameslearningsociety.org/oztoc_microsite/"
 projectshot = "/img/p_oztoc.jpg"
 +++
