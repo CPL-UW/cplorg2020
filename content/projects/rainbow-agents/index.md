@@ -6,7 +6,7 @@ toc : true
 title: "Rainbow Agents"
 ---
 
-{{<expandable label="Introduction" level="2">}}
+{{<expandable label="Introduction" level="2" open="true">}}
 Rainbow Agents is a museum game designed and set up in the [New York Hall of Science](https://nysci.org/), and the [Lawrence Hall of Science](https://www.lawrencehallofscience.org/). The game enables visitors to engage with each other around artificial intelligence, complex systems, and concurrency/parallelism; it is an opportunity to (re-)frame computer science for students in the San Francisco Bay Area and in New York City.  Schools in these areas will be offering computer science curriculum for the first time, adding urgency for museums to discover how such concepts can be presented in informal settings.
 
 {{< figureCupper
