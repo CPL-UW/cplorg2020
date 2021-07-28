@@ -20,7 +20,7 @@ options="600x600" >}}
 
 
 {{<expandable label="Reviewed Papers & Presentations" level="2">}}
- 1. Berland, M. Hooper, P. McKinney de Royston, M. Reframing Playful Participation in Museums: Identity, Collaboration, Inclusion, & Joy. Presented at _ICLS Symposium_, online, July, 2020.
+ 1. [Berland, M. Hooper, P. McKinney de Royston, M. Reframing Playful Participation in Museums: Identity, Collaboration, Inclusion, & Joy. Presented at _ICLS Symposium_, online, July, 2020.](https://complexplay.org/projects/rainbow-agents-symposium)
  2. Kumar, V., Lyons, L., & McKinney de Royston, M. (2020). The Joy and Struggles of Collaborative Museum Gaming. In Session: Reframing Playful Participation in Museums: Identity, Collaboration, Inclusion, & Joy at the _International Conference of the Learning Sciences_, 2020.
  3. Pellicone, A. Lyons, L. Kumar, V. Berland, M. Zhang, E. (2019). Rainbow agents: A collaborative game for computational literacy. _CHI:PLAY 2019_. ACM. - https://dl.acm.org/doi/10.1145/3341215.3356312
 {{</expandable>}}
