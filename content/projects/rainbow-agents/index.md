@@ -39,6 +39,9 @@ options="600x600" >}}
 {{<expandable label="Team" level="2">}}
  * [Matthew Berland, Principal Investigator](https://complexplay.org/person/) | University of Wisconsin--Madison
  * [Leilah B. Lyons, Co-Principal Investigator](https://www.cs.uic.edu/~llyons/) | New York Hall of Science; University of Illinois, Chicago
- * [Matthew A. Cannady, Co-Principal Investigator](https://www.lawrencehallofscience.org/team/mac-cannady-phd) | Lawrence Hall of Science
+ * [Matthew A. Cannady, Co-Principal Investigator](https://www.lawrencehallofscience.org/team/mac-cannady-phd) | The Lawrence Hall of Science
  * [Maxine McKinney de Royston, Senior Personnel](https://ci.education.wisc.edu/fac-staff/mckinney-de-royston-maxine/) | University of Wisconsin--Madison
+ * Bethany R. Pinzur, Project Assistant and Co-ordinator | University of Wisconsin--Madison
+* [Eric Greenwald, Co-Principal Investigator](https://learningdesigngroup.org/our-team) | The Lawrence Hall of Science
+* [Stephen Uzzo, Co-Principal Investigator](https://classic.nysci.org/people/stephen-uzzo/) | New York Hall of Science
 {{</expandable>}}
