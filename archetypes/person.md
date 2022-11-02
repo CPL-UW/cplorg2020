@@ -1,10 +1,10 @@
 +++
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+draft: false
 description = "TBD"
 role = "alum"
-draft = true
+draft = false
 tags = []
 topics = []
 headshot = "img/book.png"

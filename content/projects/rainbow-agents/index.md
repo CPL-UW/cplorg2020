@@ -1,7 +1,7 @@
 ---
 date: "2014-09-28"
 tags: ["museums", "games", "collaboration"]
-draft: true
+draft: false
 toc : true
 title: "Rainbow Agents"
 ---

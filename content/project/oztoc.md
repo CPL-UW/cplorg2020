@@ -1,7 +1,7 @@
 +++
 date = "2017-06-24T13:50:28-05:00"
 description = ""
-draft = true
+draft = false
 tags = []
 title = "oztoc"
 url_project = "https://learninggamesnetwork.org/microsites/oztoc/"

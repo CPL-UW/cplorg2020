@@ -1,7 +1,7 @@
 ---
 date: "2020-09-28"
 tags: ["museums", "games", "collaboration", "symposium"]
-draft: true
+draft: false
 toc : true
 title: "Rainbow Agents ICLS 2020 Symposium"
 ---

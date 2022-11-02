@@ -1,7 +1,7 @@
 +++
 date = "2014-01-01T00:00:00-00:00"
 description = ""
-draft = true
+draft = false
 tags = []
 title = "lead caravan"
 url_project = "https://github.com/CPL-UW/pdcny_tradewars"
