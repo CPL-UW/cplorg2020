@@ -1,6 +1,5 @@
 +++
 date = "2016-06-24T13:50:28-05:00"
-description = ""
 role = "faculty / director"
 draft = false
 url_person = "https://ci.education.wisc.edu/fac-staff/berland-matthew/"

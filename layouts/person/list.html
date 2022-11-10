@@ -1,14 +1,46 @@
 {{ define "main" }}
+  <style>
+  /* Tooltip container */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    padding: 0.25rem;
+    margin-top: -1rem;
+    visibility: hidden;
+    width: 20rem;
+    font-size: 0.75rem;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  </style>
   <main id="main">
     {{ range (.Pages.GroupByParam "role").Reverse }}
     <h2 class="person-heading">{{ .Key }}</h2>
     <div class="person-list">
     {{ range .Pages }}
           <div class="person-cell">
-            {{ if isset .Params "url_person" }} <a class="person-url" href="{{.Params.url_person}}"> {{ end }}
-            <img class="headshot" src="/{{ .Params.headshot }}" >
-            <p class="person-cell">{{.Title}}</p>
-            {{ if isset .Params "url_person" }} </a> {{ end }}
+            {{ if isset .Params "description" }} <div class="tooltip"> {{ end }}
+              {{ if isset .Params "url_person" }} <a class="person-url" href="{{.Params.url_person}}"> {{ end }}
+              <img class="headshot" src="/{{ .Params.headshot }}" >
+              <p class="person-cell">{{.Title}}</p>
+              {{ if isset .Params "url_person" }} </a> {{ end }}
+              {{ if isset .Params "description" }} <span class="tooltiptext">{{.Params.description}}</span> {{ end }}
+            {{ if isset .Params "description" }} </div> {{ end }}
           </div>
     {{ end }}
     </div>
