@@ -3,7 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
 description = "TBD"
-role = "alum"
+role = " alum"
 draft = false
 tags = []
 topics = []

@@ -1,6 +1,6 @@
 +++
 date = "2019-01-01T13:50:28-05:00"
-role = "alum"
+role = " alum"
 draft = false
 tags = []
 title = "joshua gabai"
