@@ -6,4 +6,5 @@ tags = []
 title = "eda zhang"
 headshot = "img/e_zhang.jpg"
 topics = []
+url_person = "https://edalikesmangooo.github.io/"
 +++
